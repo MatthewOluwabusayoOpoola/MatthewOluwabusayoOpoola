@@ -23,13 +23,13 @@
 
 I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
 
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+- :telescope: Contributing to frontend and backend for building web applications.
 
 - :seedling: Exploring Technical Content Writing.
 
 - :zap: In my free time, I try to improve my skillset and read tech articles.
 
-- :mailbox:How to reach me: [![Mail Badge]()](your-linkedin-url)
+- :mailbox:How to reach me: 
 
 ---
 
