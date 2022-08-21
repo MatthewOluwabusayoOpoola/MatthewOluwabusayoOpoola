@@ -51,9 +51,3 @@ I am a Full (MERN) Stack Developer <img src="https://media.giphy.com/media/WUlpl
 </div>
 
 ---
-
-### :fire: My Stats :
-
-https://github-readme-streak-stats.herokuapp.com/?user=matthewoluwabusayoopoola
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=matthewoluwabusayoopoola&theme=dark&background=000000)](https://git.io/streak-stats)
