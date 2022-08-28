@@ -4,7 +4,6 @@
   <div id="badges">
   <a href="https://www.linkedin.com/in/matthew-opoola-9a743a244">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-    <img src="https://img.icons8.com/dotty/344/portfolio.png?style=for-the-badge&logo=linkedin&logoColor=white" alt="Portfolio"/>
   </a>
   </div>
 
