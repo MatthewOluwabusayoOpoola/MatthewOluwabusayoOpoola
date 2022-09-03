@@ -5,8 +5,8 @@
   <a href="https://www.linkedin.com/in/matthew-opoola-9a743a244">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="http://matthewoluwabusayoopoola.herokuapp.com/">checkout my portfolio<a>
   </div>
+  <a href="http://matthewoluwabusayoopoola.herokuapp.com/">checkout My Portfolio<a>
 
   <h1>
     Hey there
