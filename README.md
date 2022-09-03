@@ -5,11 +5,11 @@
   <a href="https://www.linkedin.com/in/matthew-opoola-9a743a244">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-    <a href="https://www.linkedin.com/in/matthew-opoola-9a743a244">
-    <img src="https://cdn-icons-png.flaticon.com/512/639/639394.png" alt="LinkedIn Badge"/>
+    <a href="http://matthewoluwabusayoopoola.herokuapp.com/">
+    <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website Badge"/>
   </a>
   </div>
-  <a href="http://matthewoluwabusayoopoola.herokuapp.com/" style={border: 1px block blue}>My Portfolio<a>
+  
 
   <h1>
     Hey there
