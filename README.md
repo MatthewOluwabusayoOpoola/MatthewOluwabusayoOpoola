@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   </div>
-  <a href="http://matthewoluwabusayoopoola.herokuapp.com/">checkout My Portfolio<a>
+  <a href="http://matthewoluwabusayoopoola.herokuapp.com/" style={border: 1px block blue}>My Portfolio<a>
 
   <h1>
     Hey there
