@@ -26,7 +26,7 @@
 
 ### :woman_technologist: About Me :
 
-I am a Full (MERN) Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
+I am a Full (LAMP & MERN) Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
 
 - :telescope: Contributing to frontend and backend for building web applications.
 
