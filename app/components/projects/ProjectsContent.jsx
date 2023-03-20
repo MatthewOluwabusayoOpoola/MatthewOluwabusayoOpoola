@@ -1,4 +1,7 @@
 import { projects } from "../../portfolio.js";
+import Link from "next/link.js";
+import Image from "next/image.js";
+import wallpaper from "../../public/images/sixteen.webp";
 function ProjectsContent() {
   return (
     <main role="main" className="w-full lg:col-span-3">
@@ -16,11 +19,14 @@ function ProjectsContent() {
           >
             {projects.map((data, i) => {
               return (
-                <li className="group relative flex flex-col items-start">
+                <li
+                  className="group relative flex flex-col items-start"
+                  key={i}
+                >
                   <div className="relative z-10 flex items-center justify-center rounded-full bg-white dark:bg-black">
-                    <img
+                    <Image
                       alt=""
-                      src={data.img}
+                      src={wallpaper}
                       width="32"
                       height="32"
                       decoding="async"
@@ -30,10 +36,10 @@ function ProjectsContent() {
                       style={{ color: "transparent" }}
                     />
                     <h2 className="ml-3 text-base font-semibold text-black dark:text-white">
-                      <a href={data.link}>
+                      <Link href={data.link}>
                         <span className="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
                         <span className="relative z-10">{data.title}</span>
-                      </a>
+                      </Link>
                     </h2>
                   </div>
                   <p className="relative z-10 mt-6 text-sm text-zinc-500 dark:text-zinc-400">
@@ -43,14 +49,14 @@ function ProjectsContent() {
                   <ul className="inline-flex items-center gap-3" role="list">
                     {data.stack.map((stack, i) => {
                       return (
-                        <li className="flex">
-                          <a
+                        <li className="flex" key={i}>
+                          <Link
                             className="group flex text-sm font-medium dark:text-white "
                             href="#"
                             title="My Resume"
                           >
                             {stack}
-                          </a>
+                          </Link>
                         </li>
                       );
                     })}
@@ -71,7 +77,7 @@ function ProjectsContent() {
                     </svg>
 
                     <span className="mr-2">
-                      <a href={data.github}>Check It Out</a>
+                      <Link href={data.github}>Check It Out</Link>
                     </span>
                   </p>
                 </li>

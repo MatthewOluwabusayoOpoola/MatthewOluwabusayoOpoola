@@ -1,3 +1,4 @@
+import Link from "next/link";
 function ThoughtsContent() {
   return (
     <>
@@ -14,12 +15,12 @@ function ThoughtsContent() {
               <article className="md:grid md:grid-cols-4 md:items-baseline">
                 <div className="md:col-span-3 group relative flex flex-col items-start">
                   <h2 className="text-base font-semibold tracking-tight text-black dark:text-white">
-                    <a href="/article/">
+                    <Link href="/article/">
                       <span className="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
                       <span className="relative z-10">
                         Becoming an Illustrator:
                       </span>
-                    </a>
+                    </Link>
                   </h2>
                   <time
                     className="md:hidden relative z-10 order-first mb-3 flex items-center text-sm dark:text-zinc-400 text-zinc-500 pl-3.5"
@@ -74,13 +75,13 @@ function ThoughtsContent() {
               <article className="md:grid md:grid-cols-4 md:items-baseline">
                 <div className="md:col-span-3 group relative flex flex-col items-start">
                   <h2 className="text-base font-semibold tracking-tight text-black dark:text-white">
-                    <a href="/article">
+                    <Link href="/article">
                       <span className="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
                       <span className="relative z-10">
-                        "Don’t be fearful of scaling." — A chat with agency
-                        founder Oleg Davydov
+                        &quot;Don’t be fearful of scaling.&quot; — A chat with
+                        agency founder Oleg Davydov
                       </span>
-                    </a>
+                    </Link>
                   </h2>
                   <time
                     className="md:hidden relative z-10 order-first mb-3 flex items-center text-sm dark:text-zinc-400 text-zinc-500 pl-3.5"
@@ -135,13 +136,13 @@ function ThoughtsContent() {
               <article className="md:grid md:grid-cols-4 md:items-baseline">
                 <div className="md:col-span-3 group relative flex flex-col items-start">
                   <h2 className="text-base font-semibold tracking-tight text-black dark:text-white">
-                    <a href="/article">
+                    <Link href="/article">
                       <span className="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
                       <span className="relative z-10">
                         Wine, dine, design: Get inspired by colorful wine
                         branding and packaging
                       </span>
-                    </a>
+                    </Link>
                   </h2>
                   <time
                     className="md:hidden relative z-10 order-first mb-3 flex items-center text-sm dark:text-zinc-400 text-zinc-500 pl-3.5"

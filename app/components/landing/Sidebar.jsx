@@ -1,10 +1,11 @@
+import Link from "next/link";
 function SideBar() {
   return (
     <>
       <aside className="w-full">
         <div className="sticky top-0 rounded-xl w-full px-8 sm:px-16 py-8 lg:py-12 lg:px-10">
           <div>
-            <a href="/" className="text-black dark:text-white">
+            <Link href="/" className="text-black dark:text-white">
               <svg
                 width="32"
                 height="32"
@@ -25,7 +26,7 @@ function SideBar() {
               <h1 className="text-black dark:text-white text-2xl md:text-4xl xl:text-7xl 2xl:text-6xl font-bold tracking-tighter">
                 Matthew Oluwabusayo Opoola
               </h1>
-            </a>
+            </Link>
           </div>
 
           <div className="lg:mt-8 max-w-xl">
@@ -38,16 +39,16 @@ function SideBar() {
           <div className="mt-4 pt-6 border-t border-zinc-800">
             <ul className="inline-flex items-center gap-3" role="list">
               <li className="flex">
-                <a
+                <Link
                   className="group flex text-sm font-medium dark:text-zinc-400 text-zinc-500 transition hover:text-black dark:hover:text-white"
                   href="#"
                   title="My Resume"
                 >
                   Resume
-                </a>
+                </Link>
               </li>
               <li className="flex">
-                <a
+                <Link
                   className="group flex text-sm font-medium dark:text-zinc-400 text-zinc-500 transition hover:text-black dark:hover:text-white"
                   href="https://github.com/MatthewOluwabusayoOpoola"
                   title="Github Link"
@@ -64,10 +65,10 @@ function SideBar() {
                     ></path>
                   </svg> */}
                   Github
-                </a>
+                </Link>
               </li>
               <li className="flex">
-                <a
+                <Link
                   className="group flex text-sm font-medium dark:text-zinc-400 text-zinc-500 transition hover:text-black dark:hover:text-white"
                   href="mailto:initoluwa@gmail.com"
                   title="Message Me"
@@ -83,7 +84,7 @@ function SideBar() {
                     ></path>
                   </svg> */}
                   Email
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -93,28 +94,28 @@ function SideBar() {
                 role="list"
               >
                 <li>
-                  <a
+                  <Link
                     className="dark:text-zinc-400 text-zinc-500 dark:hover:text-white hover:text-black inline-flex items-center"
                     href="/about"
                   >
                     <span> About</span>
-                  </a>
+                  </Link>
                 </li>
-                <li>
-                  <a
+                {/* <li>
+                  <Link
                     className="dark:text-zinc-400 text-zinc-500 dark:hover:text-white hover:text-black inline-flex items-center"
                     href="/thoughts"
                   >
                     <span> Thoughts</span>
-                  </a>
-                </li>
+                  </Link>
+                </li> */}
                 <li>
-                  <a
+                  <Link
                     className="dark:text-zinc-400 text-zinc-500 dark:hover:text-white hover:text-black inline-flex items-center"
                     href="/projects"
                   >
                     <span> Projects</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

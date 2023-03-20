@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Landing from "../../public/images/landing.jpeg";
+import Landing from "../../public/images/wallpaper.jpg";
 function LigthRoom() {
   return (
     <main role="main" class="w-full lg:col-span-3">
