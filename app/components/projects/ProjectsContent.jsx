@@ -8,7 +8,7 @@ function ProjectsContent() {
       <section>
         <div className="p-8 lg:py-12 lg:px-10">
           <div>
-            <h1 className="text-black dark:text-white text-2xl md:text-4xl xl:text-9xl font-bold tracking-tighter">
+            <h1 className="text-black dark:text-white text-2xl md:text-3xl xl:text-3xl font-bold tracking-tighter">
               My most
               <span className="lg:block">recent work</span>
             </h1>
