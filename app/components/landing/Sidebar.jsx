@@ -23,7 +23,7 @@ function SideBar() {
                   <path d="M10 12L8 9.8l.6-1"></path>
                 </g>
               </svg>
-              <h1 className="text-black dark:text-white text-2xl md:text-4xl xl:text-7xl 2xl:text-6xl font-bold tracking-tighter">
+              <h1 className="text-black dark:text-white text-2xl md:text-3xl xl:text-3xl 2xl:text-3xl font-bold tracking-tighter">
                 Matthew Oluwabusayo Opoola
               </h1>
             </Link>
