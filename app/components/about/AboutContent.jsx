@@ -8,7 +8,7 @@ function AboutContent() {
       <section>
         <div className="p-8 lg:py-12 lg:px-10">
           <div>
-            <h1 className="text-black dark:text-white text-2xl md:text-4xl xl:text-8xl font-bold tracking-tighter">
+            <h1 className="text-black dark:text-white text-2xl md:text-3xl xl:text-3xl font-bold tracking-tighter">
               About Me
             </h1>
           </div>
@@ -23,7 +23,7 @@ function AboutContent() {
                       <p>{data.desc3}</p>
                       <p>{data.desc4}</p>
 
-                      <h2 className="text-black dark:text-white text-2xl md:text-4xl xl:text-8xl font-bold tracking-tighter">
+                      <h2 className="text-black dark:text-white text-2xl md:text-3xl xl:text-3xl font-bold tracking-tighter">
                         My Current Stack
                       </h2>
                       <ul>
@@ -66,7 +66,7 @@ function AboutContent() {
                         );
                       })}
 
-                      <h2 className="text-black dark:text-white text-2xl md:text-4xl xl:text-8xl font-bold tracking-tighter">
+                      <h2 className="text-black dark:text-white text-2xl md:text-3xl xl:text-3xl font-bold tracking-tighter">
                         Certifications
                       </h2>
                       {data.certifications.map((certifications, i) => {
