@@ -1,8 +1,4 @@
-// import one from "/public/images/one.webp";
-// import two from "/public/images/two.webp";
-// import three from "/public/images/three.webp";
-// import four from "/public/images/four.webp";
-
+import Image from "next/image";
 function ArticleContent() {
   return (
     <main role="main" className="w-full lg:col-span-3">
@@ -34,32 +30,16 @@ function ArticleContent() {
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="aspect-[280/200] bg-zinc-100 rounded-xl overflow-hidden">
-                      {/* <Image
-                        className="object-cover h-full"
-                        src={one}
-                        alt="#"
-                      /> */}
+                      <Image className="object-cover h-full" src="" alt="#" />
                     </div>
                     <div className="aspect-[280/200] bg-zinc-100 rounded-xl overflow-hidden">
-                      {/* <Image
-                        className="object-cover h-full"
-                        src={two}
-                        alt="#"
-                      /> */}
+                      <Image className="object-cover h-full" src="" alt="#" />
                     </div>
                     <div className="aspect-[280/200] bg-zinc-100 rounded-xl overflow-hidden">
-                      {/* <Image
-                        className="object-cover h-full"
-                        src={three}
-                        alt="#"
-                      /> */}
+                      <Image className="object-cover h-full" src="" alt="#" />
                     </div>
                     <div className="aspect-[280/200] bg-zinc-100 rounded-xl overflow-hidden">
-                      {/* <Image
-                        className="object-cover h-full"
-                        src={four}
-                        alt="#"
-                      /> */}
+                      <Image className="object-cover h-full" src="" alt="#" />
                     </div>
                   </div>
                   <p>

@@ -3,7 +3,7 @@ export const projects = [
     title: "CADEALS",
     desc: "Car dealership company website - a company that sells new and used cars, at the retail level, based on a dealership contract with mecedes Benz, Toyota, Land Rover, BMW and much more.",
     github: "https://github.com/MatthewOluwabusayoOpoola/cadeals",
-    stack: ["JavaScript |", "Bootstrap"],
+    stack: ["Typescript", "ReactJs", "Bootstrap"],
     img: "/./public/images/sixteen.webp",
     link: "https://cadeals.netlify.app",
   },
@@ -12,43 +12,39 @@ export const projects = [
     desc: "This is a news publication app - Bringing the trends to your screen JavaScript| Bootstrap",
 
     github: "https://github.com/MatthewOluwabusayoOpoola/countrinews",
-    stack: ["JavaScript |", "Bootstrap"],
+    stack: ["TypeScript", "NextJs", "Tailwind css"],
     img: "/./public/images/sixteen.webp",
     link: "https://countrinews.netlify.app",
   },
-  {
-    title: "CQDE",
-    desc: "QRCODE generating and styling app - Get a free qrcode with your custom styling. Great for businesses, send messages in a non traditional way and so on",
-    github: "https://github.com/MatthewOluwabusayoOpoola/cqde",
-    stack: ["JavaScript |", "Bootstrap"],
-    img: "/./public/images/sixteen.webp",
-    link: "https://cqde.netlify.app",
-  },
+  // {
+  //   title: "CQDE",
+  //   desc: "QRCODE generating and styling app - Get a free qrcode with your custom styling. Great for businesses, send messages in a non traditional way and so on",
+  //   github: "https://github.com/MatthewOluwabusayoOpoola/cqde",
+  //   stack: ["JavaScript", "Bootstrap"],
+  //   img: "/./public/images/sixteen.webp",
+  //   link: "https://cqde.netlify.app",
+  // },
 ];
 
 export const aboutMe = [
   {
-    desc: "My name is Matthew Oluwabusayo and I am a software Engineer Intern at ALX. I enjoy using my skills to contribute to ALX and also complete the daliy task asigned to me every day at ALX.",
+    desc: "I'm a software engineer based in Lagos, Nigeria, with specialization in frontend engineering. I'm enthusiastic about creating one-of-a-kind, individualized web experiences. I come up with innovative solutions to issues involving user-focused product and experiences.",
 
     stack: [
-      "PHP",
-      "Laravel",
-      "JavaScript",
       "TypeScript",
-      "ReactJs",
+      "JavaScript",
       "NextJs",
-      "MySQL",
-      "NodeJs",
-      "Apache",
+      "ReactJs",
+      "vueJs",
       "sass",
       "bootstrap",
       "tailwind",
     ],
     education: [
       {
-        name: "Caleb University",
-        course: "Computer Science",
-        grade: "Second-Class Upper Division",
+        name: "Bachelor's Degree in Computer Science",
+        course: "Caleb University Lagos, Nigeria",
+        grade: "Upper Second-Class Honors (2:1)",
         date: "September 24 , 2021",
       },
     ],
@@ -61,5 +57,13 @@ export const aboutMe = [
         date: "January 19 , 2023",
       },
     ],
+  },
+];
+
+export const Thoughts = [
+  {
+    title: "random thoughts",
+    date: "march 23, 2023",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, eius cum? Sunt dolorem quos quam quibusdam, cumque optio unde neque aperiam ipsum voluptatum ratione inventore. Et eaque, assumenda hic debitis repellendus iusto molestias voluptas nulla nihil incidunt, consequatur ratione pariatur!",
   },
 ];
