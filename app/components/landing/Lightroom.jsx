@@ -40,7 +40,7 @@ function LigthRoom() {
 
               <span className="mr-2">
                 <Link href="mailto:initoluwa@gmail.com">
-                  Let's Discuss Your Next Project
+                  Let us Discuss Your Next Project
                 </Link>
               </span>
             </p>

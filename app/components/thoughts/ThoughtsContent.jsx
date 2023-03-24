@@ -12,9 +12,12 @@ function ThoughtsContent() {
             </h1>
           </div>
           <div className="mt-8 lg:mt-24 text-base dark:text-zinc-500 text-zinc-500 lg:col-span-3 space-y-12">
-            {Thoughts.map((article) => {
+            {Thoughts.map((article, i) => {
               return (
-                <article className="md:grid md:grid-cols-4 md:items-baseline">
+                <article
+                  className="md:grid md:grid-cols-4 md:items-baseline "
+                  key={i}
+                >
                   <div className="md:col-span-3 group relative flex flex-col items-start">
                     <h2 className="text-base font-semibold tracking-tight text-black dark:text-white">
                       <Link href="/article/">

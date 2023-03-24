@@ -44,7 +44,10 @@ function ProjectsContent() {
                 <ul className="inline-flex items-center gap-3" role="list">
                   {data.stack.map((stack, i) => {
                     return (
-                      <li className="group flex text-sm font-medium dark:text-white">
+                      <li
+                        className="group flex text-sm font-medium dark:text-white"
+                        key={i}
+                      >
                         {stack}
                       </li>
                     );
