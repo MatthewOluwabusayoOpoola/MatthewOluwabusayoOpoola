@@ -31,7 +31,7 @@ function AboutContent() {
                           return <li key={i}>{stack}</li>;
                         })}
                       </ul>
-                      <h2 className="text-black dark:text-white text-2xl md:text-4xl xl:text-8xl font-bold tracking-tighter">
+                      <h2 className="text-black dark:text-white text-2xl md:text-3xl xl:text-3xl font-bold tracking-tighter">
                         Education
                       </h2>
                       {data.education.map((education, i) => {
