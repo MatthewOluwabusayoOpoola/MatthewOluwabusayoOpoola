@@ -2,10 +2,7 @@
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   
   <div id="badges">
-  <a href="https://www.linkedin.com/in/matthew-opoola-9a743a244">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-    <a href="http://matthewoluwabusayoopoola.herokuapp.com/">
+    <a href="http://matthewopoola.netlify.app/">
     <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website Badge"/>
   </a>
   </div>
@@ -26,7 +23,8 @@
 
 ### :woman_technologist: About Me :
 
-I am a Full (LAMP & MERN) Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
+I'm a software engineer based in Lagos, Nigeria, with specialization in frontend engineering. I'm enthusiastic about creating one-of-a-kind, individualized web experiences. I come up with innovative solutions to issues involving user-focused product and experiences.
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
 
 - :telescope: Contributing to frontend and backend for building web applications.
 
