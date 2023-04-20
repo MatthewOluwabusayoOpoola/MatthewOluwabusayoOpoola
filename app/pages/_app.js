@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <SEO />
-      <div className="bg-white dark:bg-black">
+      <div className="app">
         <Component {...pageProps} />
       </div>
     </>
