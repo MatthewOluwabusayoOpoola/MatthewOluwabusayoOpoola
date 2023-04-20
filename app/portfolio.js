@@ -1,21 +1,36 @@
 export const projects = [
   {
+    title: "MovieHt",
+    desc: "MovieHt is the best movies database application",
+    github: "https://github.com/MatthewOluwabusayoOpoola/movieht",
+    stack: ["Vite", "ReactJs", "SCSS"],
+    img: "/./public/images/sixteen.webp",
+    link: "https://movieht.netlify.app",
+  },
+  {
+    title: "Webby",
+    desc: "Online Luxury Watch Store.",
+    github: "https://github.com/MatthewOluwabusayoOpoola/webby",
+    stack: ["ReactJs", "SCSS"],
+    img: "/./public/images/sixteen.webp",
+    link: "https://webbyio.netlify.app",
+  },
+  {
+    title: "Real Homes",
+    desc: "This a Real Eastate Ecommerce Web Application",
+    github: "https://github.com/MatthewOluwabusayoOpoola/realhomes",
+    stack: [ "ReactJs", "css Modules", "Stripe"],
+    img: "/./public/images/sixteen.webp",
+    link: "https://realhomes-io.netlify.app",
+  },
+  {
     title: "CADEALS",
     desc: "Car dealership company website - a company that sells new and used cars, at the retail level, based on a dealership contract with mecedes Benz, Toyota, Land Rover, BMW and much more.",
     github: "https://github.com/MatthewOluwabusayoOpoola/cadeals",
-    stack: ["Typescript", "ReactJs", "Bootstrap"],
+    stack: ["JavaScript", "JQuery", "Bootstrap"],
     img: "/./public/images/sixteen.webp",
     link: "https://cadeals.netlify.app",
-  },
-  {
-    title: "COUNTRINEWS",
-    desc: "This is a news publication app - Bringing the trends to your screen JavaScript| Bootstrap",
-
-    github: "https://github.com/MatthewOluwabusayoOpoola/countrinews",
-    stack: ["TypeScript", "NextJs", "Tailwind css"],
-    img: "/./public/images/sixteen.webp",
-    link: "https://countrinews.netlify.app",
-  },
+  }
   // {
   //   title: "CQDE",
   //   desc: "QRCODE generating and styling app - Get a free qrcode with your custom styling. Great for businesses, send messages in a non traditional way and so on",
