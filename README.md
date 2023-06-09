@@ -29,5 +29,5 @@ I'm a software engineer based in Lagos, Nigeria, with specialization in frontend
 
 - :zap: In my free time, I try to improve my skillset and read tech articles.
 
-- <a href="https://matthewopoola.netlify.app">:mailbox:click Here to reach me</a>
+- <a href="https://matthewopooladev.netlify.app">:mailbox:click Here to reach me</a>
 
